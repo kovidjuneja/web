@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    border-bottom-left-radius: 40px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .leaderboard {
+    background-color: #656cea;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 210px;
+    position: relative;
+    bottom:8px;
+  }
+  
+  hr {
+    background-color: white;
+  }
+  
+  .numbering-circles {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 0px;
+    top: -10px;
+  }
+  
+  .profile-circles {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+  
+  .profile-circle {
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: #babefe;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .bigger-circle {
+    width: 135px;
+    height: 135px;
+  }
+  
+  .number-circle {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #babefe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 10px;
+    position: relative;
+  }
+  
+  .winner-names {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 0px;
+  }
+  
+  .winner-name {
+    background-color: #babefe;
+    display: flex;
+    border-radius: 20px;
+    margin: 10px;
+    position: relative;
+    height: 25px;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .name-circle {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: #babefe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 100px;
+    top: 4px;
+    padding-left: 0px;
+    border: 2px solid white;
+    border-radius: 50%;
+    border-width: 3.8px;
+    overflow: hidden;
+  }
+  
+  .name-circle .avatar-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .Names {
+    background-color: #d2d4f2;
+    margin-bottom: 5px;
+    height: 47.3px;
+    position: relative;
+    top: 13px;
+  }
+  
+  .number {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #d2d4f2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #d2d4f2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    left: 30px;
+    bottom: 40px;
+    font-size: 21px;
+  }
+  
+  .people {
+    width: 200px;
+    height: 30px;
+    border: 2px solid #d2d4f2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #d2d4f2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    left: 155px;
+    bottom: 78px;
+    font-size: 21px;
+  }
+  
+  .score {
+    width: 60px;
+    height: 30px;
+    border: 2px solid #d2d4f2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #d2d4f2;
+    margin-top: 19px;
+    margin-bottom: 5px;
+    position: relative;
+    left: 83%;
+    bottom: 133px;
+    font-size: 21px;
+  }
